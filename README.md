@@ -38,6 +38,10 @@ nvm install 8.11.1
 npm install -g pm2
 pm2 startup systemd
 ```
+- bower
+```
+npm install -g bower
+```
 
 ### Python 3 installation
 ```
