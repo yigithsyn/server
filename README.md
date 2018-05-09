@@ -44,6 +44,14 @@ pm2 startup systemd
 ```
 npm install -g bower
 ```
+- nodemon
+```
+npm install -g nodemon
+```
+- browser-sync
+```
+npm install -g browser-sync
+```
 
 ### Anaconda Python installation
 [How To Install the Anaconda Python Distribution on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04)
