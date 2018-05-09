@@ -43,11 +43,12 @@ pm2 startup systemd
 npm install -g bower
 ```
 
-### Python 3 installation
+### Anaconda Python installation
+( How To Install the Anaconda Python Distribution on Ubuntu 16.04)[https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04]
 ```
-sudo apt-get install -y python3-pip
-sudo apt-get install build-essential libssl-dev libffi-dev python-dev
-sudo apt-get install -y python3-venv
+curl -O https://repo.continuum.io/archive/Anaconda3-5.1.0-Linux-x86_64.sh
+bash Anaconda3-5.1.0-Linux-x86_64.sh
+source ~/.bashrc
 ```
 
 ### MongoDB installation
