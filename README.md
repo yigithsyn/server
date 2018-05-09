@@ -11,6 +11,8 @@ Main public server initialization, setup ve maintenance directives.
 ```
 sudo ufw enable
 sudo ufw allow http
+sudo ufw allow OpenSSH
+#  Other service ports 3004, ....
 ```
 
 ### Directory structure
@@ -44,7 +46,7 @@ npm install -g bower
 ```
 
 ### Anaconda Python installation
-( How To Install the Anaconda Python Distribution on Ubuntu 16.04)[https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04]
+[How To Install the Anaconda Python Distribution on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04)
 ```
 curl -O https://repo.continuum.io/archive/Anaconda3-5.1.0-Linux-x86_64.sh
 bash Anaconda3-5.1.0-Linux-x86_64.sh
